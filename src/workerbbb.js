@@ -1,6 +1,6 @@
 import { initializeParams } from './helpers/init';
 //import { vlessOverWSHandler } from './protocols/vless';
-//import { trojanOverWSHandler } from './protocols/trojan';
+import { trojanOverWSHandler } from './protocols/trojan';
 //import { updateWarpConfigs } from './kv/handlers';
 //import { logout, resetPassword, login } from './authentication/auth';
 //import { renderErrorPage } from './pages/error';
