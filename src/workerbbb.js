@@ -1,15 +1,15 @@
 import { initializeParams } from './helpers/init';
-//import { vlessOverWSHandler } from './protocols/vless';
+import { vlessOverWSHandler } from './protocols/vless';
 import { trojanOverWSHandler } from './protocols/trojan';
-//import { updateWarpConfigs } from './kv/handlers';
-//import { logout, resetPassword, login } from './authentication/auth';
-//import { renderErrorPage } from './pages/error';
-//import { getXrayCustomConfigs, getXrayWarpConfigs } from './cores-configs/xray';
-//import { getSingBoxCustomConfig, getSingBoxWarpConfig } from './cores-configs/sing-box';
-//import { getClashNormalConfig, getClashWarpConfig } from './cores-configs/clash';
-//import { getNormalConfigs } from './cores-configs/normalConfigs';
-//import { fallback, getMyIP, handlePanel } from './helpers/helpers';
-//import { renderSecretsPage } from './pages/secrets';
+import { updateWarpConfigs } from './kv/handlers';
+import { logout, resetPassword, login } from './authentication/auth';
+import { renderErrorPage } from './pages/error';
+import { getXrayCustomConfigs, getXrayWarpConfigs } from './cores-configs/xray';
+import { getSingBoxCustomConfig, getSingBoxWarpConfig } from './cores-configs/sing-box';
+import { getClashNormalConfig, getClashWarpConfig } from './cores-configs/clash';
+import { getNormalConfigs } from './cores-configs/normalConfigs';
+import { fallback, getMyIP, handlePanel } from './helpers/helpers';
+import { renderSecretsPage } from './pages/secrets';
 
 export default {
   async fetch(request) {
