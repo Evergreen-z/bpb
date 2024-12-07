@@ -2923,9 +2923,16 @@ var import_tweetnacl = __toESM(require_nacl_fast());
 // src/protocols/warp.js
 var import_tweetnacl2 = __toESM(require_nacl_fast());
 
+// src/protocols/vless.js
+import { connect } from "cloudflare:sockets";
+var byteToHex = [];
+for (let i = 0; i < 256; ++i) {
+  byteToHex.push((i + 256).toString(16).slice(1));
+}
+
 // src/protocols/trojan.js
 var import_js_sha2562 = __toESM(require_sha256());
-import { connect } from "cloudflare:sockets";
+import { connect as connect2 } from "cloudflare:sockets";
 
 // src/workerbbb.js
 var workerbbb_default = {
